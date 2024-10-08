@@ -20,4 +20,10 @@ public class circle {
     public double getArea() {
         return radius*radius*Math.PI;
     }
+        public void setRadius(double newRadius) {
+            radius = newRadius;
+        }
+        public void setColor(String newColor){}
+    public String getColor() {return color;}
+
 }
